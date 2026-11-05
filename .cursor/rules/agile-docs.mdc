@@ -1,0 +1,12 @@
+---
+description: Keep the work register current when stories change
+alwaysApply: true
+---
+
+# Work register
+
+When a story changes, edit the matching file in `docs/work/items/`. Scan `docs/work/items/` and, if it exists, `docs/work/archive/` before minting an id. Ids are stable and never reused.
+
+Never delete `docs/agile/` or `docs/work/archive/`. If a Scrum pack already exists at `docs/agile/`, copy it to `docs/work/archive/agile/` before editing it.
+
+This repository is a pre-registered study. Do not add training, evaluation, or model-loading code while the protocol in `docs/protocol/study-protocol.md` is still a draft, unless the user explicitly asks to implement.

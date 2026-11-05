@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+data/
+models/
+outputs/
+wandb/
+.hf_cache/
+*.safetensors
+*.bin
+*.pt
+*.pth
